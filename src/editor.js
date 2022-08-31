@@ -431,7 +431,7 @@ function createHTML(options = {}) {
         var init = function init(settings) {
 
             var paragraphSeparator = settings[defaultParagraphSeparatorString];
-            var content = settings.element.content = createElement('div');
+            var content = settings.element.content = createElement('span');
             content.id = 'content';
             content.contentEditable = true;
             content.spellcheck = false;
